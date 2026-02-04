@@ -1,0 +1,10 @@
+{
+  "name": "tflm",
+  "version": "0.0.0",
+  "build": {
+    "srcFilter": [
+      "+<tensorflow/>",
+      "+<third_party/>"
+    ]
+  }
+}
