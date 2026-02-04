@@ -1,0 +1,62 @@
+{
+  "name": "tflm",
+  "version": "0.0.0",
+  "build": {
+    "srcFilter": [
+      "+<tensorflow/>",
+      "+<third_party/>",
+
+      "-<tensorflow/lite/experimental/>",
+      "-<tensorflow/lite/micro/benchmarks/>",
+      "-<tensorflow/lite/micro/models/>",
+      "-<tensorflow/lite/micro/examples/>",
+
+      "-<tensorflow/lite/micro/arc_*/>",
+      "-<tensorflow/lite/micro/cortex_m_*/>",
+      "-<tensorflow/lite/micro/bluepill/>",
+      "-<tensorflow/lite/micro/*_custom/>",
+      "-<tensorflow/lite/micro/*/xtensa/>",
+      "-<tensorflow/lite/micro/*ceva/>",
+      "-<tensorflow/lite/micro/hexagon/>",
+      "-<tensorflow/lite/micro/integration_tests/>",
+      "-<tensorflow/lite/micro/chre/>",
+      "-<tensorflow/compiler/>",
+
+      "-<tensorflow/lite/micro/kernels/arc_mli/>",
+      "-<tensorflow/lite/micro/kernels/arc_mli/>",
+      "-<tensorflow/lite/micro/kernels/*xtensa*/>",
+      "-<tensorflow/lite/micro/kernels/ceva/>",
+      "-<tensorflow/lite/micro/kernels/hexagon/>",
+      "-<tensorflow/lite/micro/kernels/cmsis_nn/>",
+      "-<tensorflow/lite/micro/kernels/arc_mli/>",
+      "-<tensorflow/lite/micro/kernels/cmsis_nn/>",
+      "-<tensorflow/lite/micro/kernels/xtensa/>",
+      "-<tensorflow/lite/micro/kernels/*xtensa*/>",
+
+      "-<tensorflow/lite/micro/kernels/decode_state.cc>",
+      "-<tensorflow/lite/micro/kernels/decode_state.h>",
+      "-<tensorflow/lite/micro/kernels/decode_state_lut.h>",
+      "-<tensorflow/lite/micro/kernels/decode_state_prune.h>",
+      "-<tensorflow/lite/micro/kernels/decode_state_huffman.h>",
+
+      "-<tensorflow/lite/micro/kernels/ethos_u/>",
+      "-<tensorflow/lite/micro/kernels/ethosu/>",
+      "-<tensorflow/lite/micro/python/>",
+      "-<tensorflow/lite/micro/riscv32_generic/>",
+      "-<tensorflow/lite/micro/tools/>",
+
+      "-<third_party/xtensa/>",
+     "-<third_party/hexagon/>",
+
+      "-<tensorflow/lite/micro/*/*test*.cc>",
+      "-<tensorflow/lite/micro/*/*test*.c>",
+      "-<tensorflow/lite/micro/**/**/*test*.cc>",
+      "-<tensorflow/lite/micro/**/**/*test*.c>",
+      
+      "-<*/tests/>",
+      "-<*test*.*>",
+      "-<*main*.*>",
+      "-<*/tools/>"
+    ]
+  }
+}

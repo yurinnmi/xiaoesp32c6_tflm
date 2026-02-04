@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"name": "xiaoesp32c6_test",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"array": "cpp",
+			"deque": "cpp",
+			"string": "cpp",
+			"unordered_map": "cpp",
+			"unordered_set": "cpp",
+			"vector": "cpp",
+			"string_view": "cpp",
+			"format": "cpp",
+			"initializer_list": "cpp",
+			"span": "cpp",
+			"cstdint": "cpp",
+			"compare": "cpp",
+			"charconv": "cpp",
+			"chrono": "cpp",
+			"optional": "cpp",
+			"ratio": "cpp",
+			"system_error": "cpp",
+			"functional": "cpp",
+			"tuple": "cpp",
+			"type_traits": "cpp",
+			"utility": "cpp"
+		}
+	}
+}
