@@ -1,11 +1,9 @@
-# XIAO ESP32C6と加速度センサーで動きを検知,BLEでiBeacon送信
+# TensorFlow Lite for Microcontrollers XIAO ESP32C と 加速度センサーで動きを検知
 
 ## 仕様
 
-Majorコード：0:静止、1:動作中
-
 ツール：VSCode  
-使用ライブラリ：NimBLE
+使用ライブラリ：TensorFlow Lite for Microcontrollers　 (以降、TFLM)
 
 対象デバイス：  
 
@@ -15,31 +13,19 @@ Majorコード：0:静止、1:動作中
 接続：  
 VCC(3.3v)、GND、SDA、SDL端子をお互いに接続し、センサのSDO端とGNDとを接続。
 
-## フローチャート
-
-初期化：
+## 大まかなフローチャート
 
 ```mermaid
 flowchart TD
-    I2C初期化 --> BLEビーコン開始 --> ADXL345初期化
+    I2C/TFLM初期化  --> ADXL345初期化 --> 測定開始 --> B[X,Y,Z値から動静判定]
+    B -- 動いている --> 128データためて推論 --> 結果表示 -->E[10ms待つ]
+    B -- 静止状態 --> E
 ```
 
 </BR></BR>
 
-処理ループ：
-
-```mermaid
-flowchart TD
-    A[センサ値X,Y,Z取得] --> B[X,Y,Z値から動静判定]
-    B -- 動いている --> C[現Major値?]
-    C -- 0:静止であった --> Major値を1に変更 -->E[10ms待つ]
-    C -- 1:動作中であった --> Major値変更なし-->E
-    B -- 静止状態 --> D[現Major値?]
-    D -- 0:静止であった --> Major値変更なし-->E
-    D -- 1:動作中であった --> Major値を0に変更-->E
-    E --> A
-
-```
+## モデル
+W, O, SLOPEを推論する、Wind_Magicモデル相当を自作したもの。
 
 ## その他
 
