@@ -32,7 +32,6 @@ W, O, SLOPEを推論する、Magic Windモデル相当を自作したもの。
 
 NOTE記載  
 
-<https://note.com/yuzu_monaka_/n/n0ed9b26451bb>
-
+https://note.com/yuzu_monaka_/n/n46d1d95edd93
 
 
