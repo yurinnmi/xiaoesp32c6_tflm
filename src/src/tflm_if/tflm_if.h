@@ -12,7 +12,7 @@
 #include "gesture_model_float32.h"
 //#include "magic_wand_model_data.h"
 
-#define DEBUG_LOG_OUTPUT
+//#define DEBUG_LOG_OUTPUT
 
 // ===== TFLM arena =====
 constexpr int kTensorArenaSize = 240 * 1024;
