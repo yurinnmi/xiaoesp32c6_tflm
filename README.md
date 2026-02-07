@@ -1,4 +1,4 @@
-# TensorFlow Lite for Microcontrollers XIAO ESP32C と 加速度センサーで動きを検知
+# # TensorFlow Lite for Microcontrollers と XIAO ESP32C6 と 加速度センサーでジェスチャ推論
 
 ## 仕様
 
