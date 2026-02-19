@@ -26,7 +26,7 @@ flowchart TD
 </BR></BR>
 
 ## モデル
-W, O, SLOPEを推論する、Magic Windモデル相当を自作したもの。
+W, O, SLOPEを推論する、Magic wandモデル相当を自作したもの。
 
 ## その他
 
