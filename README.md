@@ -31,12 +31,15 @@ flowchart TD
 </BR></BR>
 
 ## モデル
+<<<<<<< HEAD
 
+=======
+>>>>>>> edd6970efd0ac6445ddc9b7e30d2ffe3e07770f1
 W, O, SLOPEを推論する、Magic wandモデル相当を自作したもの。
 
 ## その他
 
-NOTE記載  
+NOTE記載 :
 
 https://note.com/yuzu_monaka_/n/n46d1d95edd93
 https://note.com/yuzu_monaka_/n/n177b50a7eeeb

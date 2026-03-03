@@ -104,6 +104,7 @@ bool tflm_init(void){
   resolver.AddMaxPool2D();       // builtin=17 プーリング（最大値を拾う）
   resolver.AddExpandDims();      // builtin=70 次元を1つ増やす演算
 
+
 /*
   resolver.AddSqueeze();         // builtin=43 サイズ1の次元を消す演算
   resolver.AddMul();     //乗算 係数を掛ける処理など
