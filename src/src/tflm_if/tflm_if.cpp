@@ -103,8 +103,9 @@ bool tflm_init(void){
   resolver.AddSoftmax();         // builtin=25 確率化の演算 出力を [0..1] の確率っぽい値にして、合計が1になるようにするなど
   resolver.AddMaxPool2D();       // builtin=17 プーリング（最大値を拾う）
   resolver.AddExpandDims();      // builtin=70 次元を1つ増やす演算
-  resolver.AddSqueeze();         // builtin=43 サイズ1の次元を消す演算
+
 /*
+  resolver.AddSqueeze();         // builtin=43 サイズ1の次元を消す演算
   resolver.AddMul();     //乗算 係数を掛ける処理など
   resolver.AddDepthwiseConv2D();  //Depthwise畳み込み　普通のConv2Dより軽いタイプ
   resolver.AddRelu(); //ReLU活性化 マイナスを0に潰す処理
