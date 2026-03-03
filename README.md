@@ -38,12 +38,12 @@ W, O, SLOPEを推論する、Magic wandモデル相当を自作したもの。
 
 NOTE記載 :
 
-https://note.com/yuzu_monaka_/n/n46d1d95edd93
-https://note.com/yuzu_monaka_/n/n177b50a7eeeb
-https://note.com/yuzu_monaka_/n/n933c956eb8d6
-https://note.com/yuzu_monaka_/n/n0d95ced05db9
-https://note.com/yuzu_monaka_/n/nc0e71a38b6b2
-https://note.com/yuzu_monaka_/n/n3c2430b5281f
+https://note.com/yuzu_monaka_/n/n46d1d95edd93  
+https://note.com/yuzu_monaka_/n/n177b50a7eeeb  
+https://note.com/yuzu_monaka_/n/n933c956eb8d6  
+https://note.com/yuzu_monaka_/n/n0d95ced05db9  
+https://note.com/yuzu_monaka_/n/nc0e71a38b6b2  
+https://note.com/yuzu_monaka_/n/n3c2430b5281f  
 
 
 
